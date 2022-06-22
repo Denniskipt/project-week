@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset='UTF-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
     <script defer type="text/javascript" src="script.js"></script>
     <link rel ="stylesheet" href = "style.css" />
     <title>GITHUB SEARCH </title>
   </head>
   <body>
+    <div id = 'main'>
     <h3> The GitHub SEARCH APP</h3>
-    <section>
     <form> <!--action="/form/submit" method="GET">-->
         <label for="searchUser">Search Git User</label>
       <input id="searchByName" type="text" name="text" class="search" placeholder="Search here!">
       <input type="submit" name="submit" class="submit" value="Search">
     </form>
-    </section>
-<div>
+<section id = "img">
     <img src="" alt="Avatar"> 
+</section>
+<div id='github-container'>
+  <section id='Followers'>
+<p>Followers</p>
+  </section>
+  <section id="following">
+    <p>Following</p>
+  </section>
+  <section id='repos-list'>
+    <p>Repositories</p>
+ </section>
 </div>
+    </div>
   </body>
 </html>

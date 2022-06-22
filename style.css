@@ -1,16 +1,20 @@
 body {
     background-color: #bfccab;
   }
-  form {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form {
     width: 400px;
     margin: auto;
     margin-top: 250px;
+    
   }
-  img {
-    border-radius: 50%;
-    background-color: aquamarine;
-  }
-  input {
+
+  .input {
     padding: 4px 10px;
     border: 0;
     font-size: 16px;
@@ -23,3 +27,17 @@ body {
     background-color: #1c87c9;
     color: #ffffff;
   }
+
+  github-container {
+    display: flex;
+  }
+ 
+  img {
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+  }
+  
+
+  
+  
