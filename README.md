@@ -1,9 +1,5 @@
 ## project-week
-https://img.shields.io/github/license/Denniskipt/project-week?style=flat-square
-https://img.shields.io/github/issues/Denniskipt/project-week?style=plastic
-https://img.shields.io/twitter/url?style=social&url=%40koros_jr
-https://img.shields.io/github/stars/Denniskipt/project-week
-https://img.shields.io/github/forks/Denniskipt/project-week
+
 
 ##Table of Contents
 *[General info](#general-info)
