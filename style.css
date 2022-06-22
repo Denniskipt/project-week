@@ -1,7 +1,7 @@
 body {
     background-color: #bfccab;
   }
-  main {
+  #main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,16 +28,22 @@ body {
     color: #ffffff;
   }
 
-  github-container {
-    display: flex;
+  #github-container {
+    font-family: arial;
+    font-size: 15px;
+    margin: 25px;
+    width: 700px;
+    height: 700px;
+    outline: dashed 1px black;
+    /* Setup */
+    position: relative;
   }
  
   img {
-    height: 150px;
-    width: 150px;
+    height: 260px;
+    width: 260px;
     background-color: aquamarine;
   }
   
-
   
   
