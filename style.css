@@ -7,22 +7,22 @@ body {
     align-items: center;
   }
 
-  .form {
+  #form {
     width: 400px;
     margin: auto;
     margin-top: 250px;
     
   }
 
-  .input {
+  #input {
     padding: 4px 10px;
     border: 0;
     font-size: 16px;
   }
-  .search {
+  #search {
     width: 75%;
   }
-  .submit {
+  #submit {
     width: 70px;
     background-color: #1c87c9;
     color: #ffffff;

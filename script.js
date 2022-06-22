@@ -16,15 +16,15 @@ fetch(`https://api.github.com/users/${input.value}`)
 .then (data => {
 
 const repository = document.getElementById('repo-list')
- const img = document.getElementById('img')
+ const img = document.getElementById('img').src
 const followed=document.getElementById('followers')
 const follow =document.getElementById('following')
 //   .catch((error)=>{
 //     console.log ('it is an error ')
-img.src = data.avatar_url
-repository.innerHTML = data.public_repos
-followed.innerHTML= data.followers
-follow.innerHTML = data.following
+img.innerHtml = data.avatar_url
+repository.textContent = data.public_repos
+followed.textContent= data.followers
+follow.textContent = data.following
   })
 });
 
