@@ -14,13 +14,13 @@ I used GitHub API Version 3 to build an application which runs a search querry o
 
 The information requested and rendered on the page includes :
 
-*1.full username
-*2.Image Avatar
-*3.Account creation  date
-*4.Followers(number)
-*5. Following(number)
-*6. number of public repos
-*7. Company name
+* 1.full username
+* 2.Image Avatar
+* 3.Account creation  date
+* 4.Followers(number)
+* 5. Following(number)
+* 6. number of public repos
+* 7. Company name
 
 ##Technologies
 
