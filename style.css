@@ -1,49 +1,62 @@
-body {
-    background-color: #bfccab;
-  }
-  #main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+#body{
+  background-color: blueviolet;
 
-  #form {
-    width: 400px;
-    margin: auto;
-    margin-top: 250px;
-    
-  }
+}
 
-  #input {
-    padding: 4px 10px;
-    border: 0;
-    font-size: 16px;
-  }
-  #search {
-    width: 75%;
-  }
-  #submit {
-    width: 70px;
-    background-color: #1c87c9;
-    color: #ffffff;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  #github-container {
-    font-family: arial;
-    font-size: 15px;
-    margin: 25px;
-    width: 700px;
-    height: 700px;
-    outline: dashed 1px black;
-    /* Setup */
-    position: relative;
-  }
- 
-  img {
-    height: 260px;
-    width: 260px;
-    background-color: aquamarine;
-  }
-  
-  
-  
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+   height: 600px;  /*Should be removed. Only for demonstration */
+} 
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+  height: 260px;
+  width: 260px;
+  background-color: aquamarine;
+}
+#modal p {
+  margin-bottom: 0;
+}
+
+.activated-heart {
+  color: red;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.like-glyph {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Corben', Georgia, Times, serif;
+}
+
+p, div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.postcomment {
+float: right;
+width: 300px;
+border: 3px solid #73AD21;
+padding: 10px;
+}
+
+* {
+box-sizing: border-box;
+}
+

@@ -1,57 +1,81 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='UTF-8'/>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-  <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
-    <script defer type="text/javascript" src="script.js"></script>
-    <link rel ="stylesheet" href = "style.css" />
-    <title>GITHUB SEARCH </title>
-  </head>
-  <body>
-    <div id = 'main'>
-    <h3> The GitHub SEARCH APP</h3>
-    <form> <!--action="/form/submit" method="GET">-->
-        <label for="searchUser">Search Git User</label>
-      <input id="searchByName" type="text" name="text" class="search" placeholder="Search here!">
-      <input type="submit" name="submit" class="submit" value="Search">
-    </form>
-    <h4>Image</h4>
-<section id = "img">
-    <img src= "" alt="Avatar"> 
-</section>
-<div id='github-container' class="container">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel ="stylesheet" href = "style.css" />
+<link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="style.css">
+ <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="style.css">
+<script defer type="text/javascript" src="script.js"></script>
+</head>
+<body>
 
-<h4>Full Name</h4>
-<section id="name">
-  <p></p>
-</section>
-</section>
-<h4>Account Creation Date</h4>
-<section id="date">
-  <p></p>
-</section>
-  <h4>Followers</h4>
-<section id='followers'></section>
-<p></p>
+<h2></h2>
+
+<div class="row">
+  <div class="column" style="background-color:#ddda;">
+    <h2> The GitHub SEARCH APP </h2>
+      <form id="search"> <!--action="/form/submit" method="GET">-->
+          <label for="searchUser">Search Git User</label>
+        <input id="searchByName" type="text" name="text" class="search" placeholder="Search here!">
+        <input type="submit" name="submit" class="submit" value="Search">
+      </form>
+      <h4>Image</h4>
+  <section id = "img">
+      <img src= "" alt="Avatar"> 
   </section>
-  <h4>Following</h4>
-  <section id="following">
-     <p></p>
-  </section>
-  <h4>Repositories</h4>
-  <section id='repo-list'>
+  <div id='github-container'>
+  
+  <h4>Full Name</h4>
+  <section id="name">
     <p></p>
   </section>
-  <h4>Location</h4>
-  <section id="loc">
+  </section>
+  <h4>Account Creation Date</h4>
+  <section id="date">
     <p></p>
   </section>
-  <h4>Company Name</h4>
-  <section id="com">
+  </div>
+  </div>
+  
+  <div class="column" style="background-color:#ddda;">
+    <h2>Details</h2>
+  
+    <h4>Followers</h4>
+    <section id='followers'></section>
     <p></p>
-  </section>
+      </section>
+      <h4>Following</h4>
+      <section id="following">
+         <p></p>
+      </section>
+      <h4>Repositories</h4>
+      <section id='repo-list'>
+        <p></p>
+      </section>
+      <h4>Location</h4>
+      <section id="loc">
+        <p></p>
+      </section>
+      <h4>Company Name</h4>
+      <section id="com">
+        <p></p>
+      </section>
+          </div> 
+    
+  </div>
+   <div class="column" style="background-color:#ddda;">
+    <div id="postcomment">
+        <h4></h4>
+          <form id="comment">
+           Your comments: <br>
+            <textarea id="textcomment" name="comments" rows="2" cols="30"></textarea><br><br>
+            <input type="submit" value="post">
+            </form>
+          <p id="usercomment"> </p>
+          <li class="like">Like! <span class="like-glyph">&#x2661;</span></li>
+          </div>
 </div>
-    </div>
-  </body>
+<div class="column" style="background-color:#ddda;">
+</div>
+
+</body>
 </html>
